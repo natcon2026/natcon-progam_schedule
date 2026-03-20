@@ -1,0 +1,113 @@
+```css id="updated-css"
+body{
+    margin:0;
+    font-family: 'Segoe UI', sans-serif;
+    background: linear-gradient(to right, #e3f2fd, #f5f7fa);
+}
+
+/* CONTAINER */
+.container{
+    width:85%;
+    margin:auto;
+    background:#ffffff;
+    padding:40px;
+    margin-top:30px;
+    margin-bottom:30px;
+    border-radius:10px;
+    box-shadow:0 8px 25px rgba(0,0,0,0.15);
+}
+
+/* HEADER */
+.header{
+    text-align:center;
+    padding-bottom:20px;
+    border-bottom:3px solid #0b3d91;
+}
+
+/* LOGO */
+.logo{
+    width:180px;
+    margin-bottom:10px;
+}
+
+/* TITLES */
+.header h1{
+    color:#0b3d91;
+    margin:5px 0;
+}
+
+.header h2{
+    color:#444;
+    margin-bottom:10px;
+}
+
+.subtitle{
+    font-weight:500;
+}
+
+.theme{
+    max-width:700px;
+    margin:auto;
+    font-size:15px;
+    color:#333;
+}
+
+.collab{
+    margin-top:10px;
+    color:#555;
+}
+
+.date{
+    margin-top:10px;
+    font-size:16px;
+}
+
+/* DAY TITLE */
+.day-title{
+    margin-top:40px;
+    color:#0b3d91;
+    border-left:6px solid #0b3d91;
+    padding-left:10px;
+}
+
+/* SCHEDULE */
+.schedule{
+    margin-top:20px;
+}
+
+/* ROW */
+.row{
+    display:flex;
+    padding:10px;
+    border-bottom:1px solid #eee;
+    transition:0.3s;
+}
+
+.row:hover{
+    background:#f1f7ff;
+}
+
+/* TIME */
+.time{
+    width:30%;
+    font-weight:bold;
+    color:#1a237e;
+}
+
+/* EVENT */
+.event{
+    width:70%;
+}
+
+/* HIGHLIGHT */
+.highlight{
+    background:#e3f2fd;
+    border-left:5px solid #2196f3;
+}
+
+/* SUBTITLE */
+h3{
+    margin-top:20px;
+    color:#333;
+}
+```
