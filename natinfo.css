@@ -4,6 +4,31 @@ body{
     font-family: 'Segoe UI', sans-serif;
     background: linear-gradient(to right, #e3f2fd, #f5f7fa);
 }
+.pdf-download {
+    text-align: center;
+    margin-top: 50px;
+    margin-bottom: 40px;
+}
+
+.pdf-download h2 {
+    font-size: 24px;
+    color: #003366;
+    margin-bottom: 15px;
+}
+
+.download-btn {
+    background-color: #0055aa;
+    color: white;
+    padding: 12px 25px;
+    text-decoration: none;
+    font-size: 18px;
+    border-radius: 8px;
+    transition: 0.3s;
+}
+
+.download-btn:hover {
+    background-color: #003d80;
+}
 
 /* CONTAINER */
 .container{
